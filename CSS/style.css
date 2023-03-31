@@ -1,0 +1,38 @@
+@import "blocos.css";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+     .direito{
+        margin-right: 75px;
+     }
+
+     .esquerdo{
+        margin-right: 75px;
+        margin-top: 150px;
+     }
+
+     .esquerdo, .direito{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;      
+     }
+
+     body{
+        background-image: url(../imagens/covid-19.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+     }
+
+     .titulo{
+        text-align: center;
+        color: rgba(255, 255, 255, 0.759);
+        margin-top: 150px;
+     }
+
+     .logo{
+        margin-top: 50px;
+        margin-left: 820px;
+     }
